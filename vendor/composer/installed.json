@@ -1,0 +1,56 @@
+{
+    "packages": [
+        {
+            "name": "mehrab-wj/tiktoken-php",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mehrab-wj/tiktoken-php.git",
+                "reference": "f894247f05bb3494a9cb4bcad5d588e87ff50e73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mehrab-wj/tiktoken-php/zipball/f894247f05bb3494a9cb4bcad5d588e87ff50e73",
+                "reference": "f894247f05bb3494a9cb4bcad5d588e87ff50e73",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.14",
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^9.5",
+                "rector/rector": "^0.15.12",
+                "symfony/var-dumper": "^6.2"
+            },
+            "time": "2023-04-19T18:36:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TikToken\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mehrab Hojjati Pour",
+                    "email": "thisismehrab@gmail.com"
+                }
+            ],
+            "description": "a clone of python tiktoken but for PHP! fast BPE tokeniser for use with OpenAI's models.",
+            "support": {
+                "source": "https://github.com/mehrab-wj/tiktoken-php/tree/v1.0.0"
+            },
+            "install-path": "../mehrab-wj/tiktoken-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
